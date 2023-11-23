@@ -25,7 +25,7 @@ jobs:
       - name: NPM Install
         run: npm install
       - name: NPM Install Angular
-        run: npm install -g @angular/cli > /dev/null
+        run: npm install -g @angular/cli@8.13> /dev/null
       - name: Format
         run: npm run format
       - name: NPM build Angular Production
