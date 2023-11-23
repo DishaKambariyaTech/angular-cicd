@@ -35,6 +35,6 @@ jobs:
         with:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY}}
           SOURCE: "dist/angular-cicd/browser"
-          REMOTE_HOST: "ip-172-31-33-183.ap-south-1.compute.internal"
+          REMOTE_HOST: "ec2-13-233-130-22.ap-south-1.compute.amazonaws.com"
           REMOTE_USER: "ubuntu"
           TARGET: "/var/www/html/angular-cicd/dist/angular-cicd/"
